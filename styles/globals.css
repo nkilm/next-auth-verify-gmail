@@ -1,65 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-form {
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-
-  background-color: #000;
-  color: #fff;
-}
-
-.mail-input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.2rem;
-  width: 100%;
-}
-
-.mail-input input {
-  width: 100%;
-  max-width: 500px;
-
-  padding: 1rem;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  border: none;
-  outline: none;
-
-  background-color: #111;
-  color: #a1a1a1;
-}
-
-.mail-input .btn {
-  width: 100%;
-  max-width: 500px;
-
-  padding: 1rem;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-  border: none;
-  outline: none;
-
-  background-color: #111;
-  color: #c6c6c6;
-  cursor: pointer;
+@layer base {
+  body {
+    font-family: "Rubik", sans-serif;
+  }
 }
