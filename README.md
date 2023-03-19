@@ -12,6 +12,13 @@
 
 > You can get them from [here](https://console.cloud.google.com/apis/credentials)
 
+- `SECRET` which is just random _hex_ string, generate using the below command.
+
+```bash
+# in your terminal
+openssl rand -hex 64
+```
+
 ### Running Locally
 
 ```bash
