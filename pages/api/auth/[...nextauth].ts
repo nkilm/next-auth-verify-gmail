@@ -12,4 +12,6 @@ export default NextAuth({
       clientSecret: env.GOOGLE_CLIENT_SECRET,
     }),
   ],
+  // generate using - openssl rand -hex 64
+  secret: env.NEXTAUTH_SECRET,
 });
